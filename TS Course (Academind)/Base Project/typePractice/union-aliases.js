@@ -1,7 +1,5 @@
 "use strict";
-//Literal Types switch values given tags like resultConversion. 
 function combine(input1, input2, resultConversion) {
-    //Empty base result.
     let result;
     if (typeof input1 === 'number' && typeof input2 === 'number' || resultConversion == 'as-number') {
         result = +input1 + +input2;
