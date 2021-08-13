@@ -1,7 +1,7 @@
 "use strict";
 //unknown is a more specific form of any.
-var userInput;
-var userName;
+let userInput;
+let userName;
 userInput = 5;
 userInput = 'Max';
 // userName = userInput >> type unknown is not assignable to type string.
@@ -12,5 +12,5 @@ function generateError(message, code) {
     throw { message: message, errorCode: code };
     // while (true) {}
 }
-var result = generateError("An error is here!", 500);
+const result = generateError("An error is here!", 500);
 console.log(result);
